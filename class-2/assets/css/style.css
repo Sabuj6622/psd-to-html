@@ -181,6 +181,7 @@ input:-webkit-autofill:focus {
 }
 .single-slide-item h2 {
   font-size: 40px;
+  color: #fff;
 }
 .single-slide-item h2 span {
   font-weight: 300;
