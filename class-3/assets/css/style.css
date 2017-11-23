@@ -1,0 +1,361 @@
+/**
+* Style.css
+*
+* Main style file for Event HTML Landing Page
+**/
+
+
+/**
+*********************************************
+* Table of Contents
+*********************************************
+* 
+* 1. Reset CSS
+* 2. Header CSS
+*   2.1 Header Top CSS
+*   2.2 Menu CSS
+* 3. Slider CSS
+*
+*
+*
+*
+* 11. Footer CSS
+*   11.1 Footer Top CSS
+*   11.2 Footer Bottom CSS
+*************** Individual Pages CSS ***************
+* 12. About Page
+*   12.1 About Page Hero Area
+*       12.1.1 About Page Hero Left 
+*       12.1.2 About Page Hero Right 
+*   12.2 About Page Carousel CSS
+**/
+
+
+/**
+*******************************************
+* 1. Reset CSS start
+*******************************************
+**/
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i|Zilla+Slab:300,300i,400,400i,500,500i,600,600i,700,700i');
+html,
+body {
+    height: 100%;
+}
+*{
+    outline: none!important
+}
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline-offset: -2px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    margin: 0 0 15px;
+    font-family: 'Zilla Slab', sans-serif;
+    color: #000;
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.8;
+  color: #888888;
+}
+a:hover {
+    text-decoration: none
+}
+
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/**
+*******************************************
+* 1. Reset CSS End
+*******************************************
+**/
+.slide-bg-1{background-image: url(../images/slide-bg.jpg);}
+.slide-bg-2{background-image: url(../images/slide-bg-1.jpg);}
+.slide-bg-3{background-image: url(../images/slide-bg-2.jpg);}
+.header-area.header-absolute {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9;
+}
+.header-area {
+  font-size: 16px;
+  font-family: 'Zilla Slab', sans-serif;
+}
+.mainmenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.mainmenu ul li {
+  display: inline-block;
+}
+.mainmenu ul li a {
+  display: block;
+  padding: 20px;
+  font-weight: 700;
+}
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 19px;
+}
+.search-icon {
+  margin-top: 19px;
+  display: inline-block;
+  font-size: 20px;
+}
+.header-area.header-absolute,.header-area.header-absolute a {
+  color: #fff;
+}
+.single-slide-item {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd;
+}
+.single-slide-item:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: #000;
+  z-index: -1;
+  opacity: .66;
+}
+.single-slide-item a {
+  color: #fff;
+}
+.single-slide-item h2 {
+  font-size: 40px;
+}
+.single-slide-item h2 span {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.video-btn {
+    position: relative;
+    display: block;
+    margin-top: 35px;
+}
+.service-btn {
+  background: #0BBBC1;
+  font-size: 16px;
+  display: inline-block;
+  font-weight: 700;
+  padding: 15px 45px;
+  border-radius: 50px;
+  margin-top: 40px;
+  text-transform: capitalize;
+}
+.slide-content {
+    padding: 160px 0px;
+}
+.service-btn i {
+  margin-left: 10px;
+}
+.play-icon {
+  position: absolute;
+  background: #0BBBC1;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  left: 50%;
+  top: 50%;
+  margin-left: -25px;
+  margin-top: -25px;
+  border-radius: 50%;
+}
+
+
+.owl-carousel .owl-item .slide-content img {
+  width: auto;
+  display: inline-block;
+}
+.home-carousel-active:hover .owl-nav div{
+  opacity: 1;
+  top: 50%;
+}
+.home-carousel-active .owl-nav div {
+  position: absolute;
+  left: 12%;
+  top: 30%;
+  color: #fff;
+  font-size: 25px;
+  opacity: 0;
+  transition: .4s;
+}
+.home-carousel-active .owl-nav .owl-next {
+  right: 13%;
+  left: auto;
+}
+
+
+
+.section-padding {
+  padding: 100px 0px;
+}
+.single-promo-box {
+  text-align: center;
+  margin-top: 30px;
+}
+.promo-icon {
+  margin-bottom: 30px;
+}
+.space-90 {
+  height: 90px;
+}
+.section-padding p {
+  margin-top: 40px;
+  font-size: 13px;
+  text-align: justify;
+}
+.tile-gallery {
+  position: relative;
+  height: 700px;
+  margin-left: 15px;
+}
+.tile-gallery img {
+  border-radius: 5px;
+  box-shadow: 0 0 10px #d8d8d8;
+  position: relative;
+  z-index: 1;
+}
+.tile-gallery img:nth-child(2) {
+  position: absolute;
+  right: -16px;
+  top: 25px;
+  z-index: 1;
+}
+.tile-gallery img:last-child {
+  position: absolute;
+  left: 25px;
+  bottom: 0;
+  z-index: 4;
+}
+.services-bg {
+  position: relative;
+  overflow: hidden;
+}
+.services-bg:before{
+  background-image: url(../images/service-bg.jpg);
+}
+.services-bg:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 51.2%;
+  height: 100%;
+  content: "";
+}
+.single-service-item {
+  position: relative;
+  display: block;
+  padding-left: 100px;
+  color: #9b9b9b;
+  text-decoration: none;
+  margin-bottom: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  z-index: 1;
+  font-weight: 700;
+}
+
+.service-icon {
+  position: absolute;
+  left: 35px;
+  top: 0;
+  height: 100%;
+  display: table;
+}
+.service-icon-tablecell {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+}
+.single-service-item p {
+  margin-bottom: 0;
+}
+.single-service-item h3 {
+  font-size: 20px;
+}
+.single-service-item:last-child {
+  margin-bottom: 0;
+}
+
+.single-service-item:hover h3 {
+  color: #fff;
+}
+
+.single-service-item:hover .service-icon img {
+  background-color: #fff;
+}
+
+.single-service-item:hover {
+  background: #0BBBC1;
+  color: #fff;
+}
+.single-service-item:hover:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 5000%;
+  height: 100%;
+  content: "";
+  background: #0BBBC1;
+  z-index: -1;
+}
