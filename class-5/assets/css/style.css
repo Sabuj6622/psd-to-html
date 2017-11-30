@@ -318,7 +318,7 @@ input:-webkit-autofill:focus {
 .service-icon {
   position: absolute;
   left: 35px;
-  top: 6px;
+  top: 65px;
   height: 100%;
   display: table;
 }
