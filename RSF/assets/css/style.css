@@ -1421,7 +1421,7 @@ ul.work-nav li button.is-checked {
     .status .col-xs-3 {
         margin-bottom: 15px;
         width: 50%;
-        min-height: 89px;
+        min-height: 120px;
     }
     .status span {
         font-size: 15px;
