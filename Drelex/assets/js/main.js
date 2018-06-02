@@ -15,7 +15,6 @@
                     dots: false,
                     nav:true,
                     navText: ['Back','Next'],
-                    margin:30,
                     smartSpeed:450,
                     responsiveClass:true,
                     responsive:{
@@ -28,9 +27,8 @@
                             nav:false
                         },
                         1000:{
-                            items:5,
+                            items:1,
                             nav:true,
-                            loop:false
                         }
                     }
                 });
@@ -82,11 +80,6 @@
                     }
                 }
             });
-
-         $(".").owlCarousel({
-            
-            
-        });
            $(".slider-active").on("translate.owl.carousel", function(){ 
             $(".slide-text p").removeClass("animated fadeInDown");
             $(".slide-text span").removeClass("animated bounceIn");
