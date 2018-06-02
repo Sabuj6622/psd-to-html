@@ -600,7 +600,7 @@ input:-webkit-autofill:focus {
 .single-product-itme:hover .cart-action {
   visibility: visible;
   opacity: 1;
-  left:35%;
+  left:29%;
 }
 
 .product-icon a {
