@@ -70,7 +70,9 @@
  /*SM small devices:550px */
 
 @media (max-width: 575px) { 
-
+.single-product-itme:hover .cart-action {
+	left: 35%;
+}
 .header-right ul li:hover .cart_wrap {
 	opacity: 0;
 	visibility: hidden;
