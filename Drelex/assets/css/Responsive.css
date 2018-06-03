@@ -154,7 +154,8 @@
 	min-height: 65px;
 }
 .mean-container .mean-bar {
-	width: 90%;
+	width: 88%;
+	margin-left: 19px;
 }
 }
 
