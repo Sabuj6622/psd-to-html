@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900');
+
+
+html,
+body {
+    height: 100%;
+     width:100%;
+}
+*{
+    outline: none!important
+}
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline-offset: -2px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    margin: 0 0 15px;
+    color: #000;
+}
+a:hover {
+    text-decoration: none
+}
+
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.portfolio-bg-1{background-image: url(../img/item_1.jpg);}
+.portfolio-bg-2{background-image: url(../img/item_2.jpg);}
+.portfolio-bg-3{background-image: url(../img/item_3.jpg);}
+.portfolio-bg-4{background-image: url(../img/item_4.jpg);}
+.portfolio-bg-5{background-image: url(../img/item_5.jpg);}
+.portfolio-bg-6{background-image: url(../img/item_6.jpg);}
+.portfolio-bg-7{background-image: url(../img/item_7.jpg);}
+.portfolio-bg-8{background-image: url(../img/item_8.jpg);}
+.portfolio-bg-9{background-image: url(../img/item_9.jpg);}
+.portfolio-bg-10{background-image: url(../img/item_10.jpg);}
+.portfolio-bg-11{background-image: url(../img/item_11.jpg);}
+
+.header_area{
+  padding:40px 30px;
+}
+
+.logo a {
+  color: #000;
+}
+.logo h1 {
+  margin: 0;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: 'Muli', sans-serif;
+  display: inline-block;
+  position: relative;
+  font-weight: 900;
+}
+.logo h1 span i.fas {
+  position: absolute;
+  top: 4px;
+  right: -12px;
+  font-size: 10px;
+}
+
+.menu_trigger span {
+  background: #000;
+  height: 2px;
+  display: block;
+  transition: .3s;
+}
+.menu_trigger:hover span:nth-child(1), .menu_trigger:hover span:nth-child(3) {
+  margin: 0px 6px;
+}
+.menu_trigger span:nth-child(2) {
+  margin: 8px 0px;
+}
+.menu_trigger {
+  width: 30px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+
+.single_portfolio_item {
+  float: left;
+  width: 25%;
+  height: 330px;
+  display: table;
+  background-size: 100%;
+  background-position: center;
+  background-color: #ddd;
+  cursor: pointer;
+  transition: .3s;
+}
+.portfolio_content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  background: #fff;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s;
+  overflow: hidden;
+}
+.portfolio_content a {
+  color: #272727;
+  font-size: 23px;
+}
+.portfolio_content p a {
+  font-size: 10px;
+  text-transform: uppercase;
+  opacity: .5;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+.portfolio_content p:hover a{
+  opacity: 1;
+}
+.single_portfolio_item:hover .portfolio_content {
+  opacity: 1;
+  visibility: visible;
+}
+
+.single_portfolio_item.large {
+  height: 660px;
+}
+.single_portfolio_item.big {
+  width: 50%;
+  height: 660px;
+}
+.single_portfolio_item:hover {
+  background-size: 120%;
+}
+
+.footer_area {
+  background: #613AD6;
+  padding: 75px 40px;
+}
+.footer_area p, a {
+  color: #9AA2D6;
+  font-size: 16px;
+  font-weight: 700;
+}
+.footer_area ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer_logo a {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 900;
+  font-family: muli,sans-serif;
+  text-transform: uppercase;
+  position: relative;
+}
+.footer_logo span i.fas {
+  position: absolute;
+  top: 5px;
+  font-size: 8px;
+  right: -5px;
+}
+.footer_logo p {
+  font-size: 17px;
+}
+.footer_area li a:hover{
+  color:#fff;
+}
+
+.footer_area li a:hover {
+  color: #fff;
+}
+.footer_area li a {
+  text-transform: capitalize;
+}
+.footer_area h3:hover a {
+  color: ;
+  color: #fff;
+}
+.footer_area {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+}
+.portfolio_list {
+  margin-bottom: 260px;
+  z-index: 2;
+}
+
+/*offcanvas-menu css*/
+.header_area {
+  position: absolute;
+  width: 100%;
+  z-index: 99;
+  transition: .3s;
+  left: 0;
+  top: 0;
+}
+.offcanvas-menu {
+  position: fixed;
+  right: -40%;
+  top: 0;
+  width: 40%;
+  background: #fff;
+  z-index: 99;
+  height: 100%;
+  opacity: 0;
+  visibility: visible;
+  transition: .3s;
+}
+.offcanvas-menu.active{
+  opacity: 1;
+  visibility: visible;
+  right: 0;
+}
+.theme-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  z-index: 9;
+  opacity: 0;
+  visibility: hidden;
+}
+.theme-overlay.active{
+  opacity: 0;
+  visibility: visible;
+}
+.menu-content {
+  position: absolute;
+  bottom: 70px;
+  left: 70px;
+}
+.menu-boxed {
+  max-width: 320px;
+  background: #EFEBFF;
+  margin-bottom: 60px;
+  padding:5px;
+}
+.social_icons li i.fab {
+  font-size: 20px;
+}
+
+.offcanvas-menu .menu-item-inner ul {
+  padding-left: 70px;
+}
+.menu-item-inner ul li a {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 55px;
+  color: #100060;
+}
+.menu-item-inner ul li a.active{
+  color:#613ad6;
+}
+.menu-item-inner ul li a:hover{
+  color:#613ad6;
+}
+.offcanvas-menu_item {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.menu-item-inner {
+  vertical-align: middle;
+  display: table-cell;
+  padding-bottom: 208px;
+}
+.menu-item-inner ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.social_icons ul li {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.social_icons ul li a:hover .fa-instagram {
+  color:#000;
+  opacity: .5;
+}
+
+.menu-close {
+  position: absolute;
+  right: 0;
+  width: 70px;
+  border-left: 1px solid #ddd;
+  height: 100%;
+  top: 0;
+  cursor: pointer;
+}
+.menu-close i.fas {
+  position: absolute;
+  top: 50%;
+  line-height: 40px;
+  margin-top: -20px;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.header_area.headroom--unpinned {
+  transition: .3s;
+  top: -100px;
+}
+.header_area.headroom--pinned {
+  position: fixed;
+  top: 0;
+  z-index: 99999;
+}
+
+

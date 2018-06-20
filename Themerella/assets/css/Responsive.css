@@ -1,0 +1,84 @@
+
+ /* XL devices:1200 */
+@media (min-width: 1200px)and (max-width: 1500px) { 
+
+
+}
+/* LG devices:992 */
+@media (min-width: 992px) and (max-width: 1200px) { 
+
+
+}
+
+/* Md devices:786  */
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+
+}
+
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767px) { 
+.single_portfolio_item {
+	width: 100%;
+}
+.single_portfolio_item.big {
+	width: 100%;
+}
+.offcanvas-menu {
+	width: 100%;
+}
+
+ }
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) { 
+.single_portfolio_item {
+	width: 100%;
+}
+.footer_area {
+	position: relative;
+}
+.portfolio_list {
+	margin-bottom: 0px;
+}
+.single_portfolio_item.big {
+	width: 100%;
+	height: 330px;
+}
+.offcanvas-menu {
+	width: 100%;
+	right:-100%;
+}
+.menu-content {
+	left: 15px;
+}
+.menu-item-inner ul li a {
+	font-size: 20px;
+	line-height: 36px;
+}
+
+.menu-content {
+	bottom: 25px;
+}
+.footer_area .col-6 {
+	margin-bottom: 20px;
+}
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
