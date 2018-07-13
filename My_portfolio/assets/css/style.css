@@ -426,7 +426,6 @@ input:-webkit-autofill:focus {
 .portfolio-area{
   background-color: #fff;
   padding-top: 100px;
-  overflow: hidden;
 }
 .single-item-bg-1{background-image:url(../img/portfolio-1.png); }
 .single-item-bg-2{background-image:url(../img/portfolio-2.png); }
