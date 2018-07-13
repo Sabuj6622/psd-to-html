@@ -10,7 +10,7 @@
 /* LG devices:992 */
 @media (min-width: 992px) and (max-width: 1200px) { 
 .slicknav_menu {
-	display: none;
+    display: none;
 }
 
 .mainmenu ul li a {
@@ -30,7 +30,6 @@
 
 /* Md devices:786  */
 @media (min-width: 768px) and (max-width: 991px) {
-
 
 .logo a {
 	font-size: 24px;

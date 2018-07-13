@@ -93,6 +93,8 @@ input:-webkit-autofill:focus {
   line-height: 40px;
   color: #fff;
   font-size: 25px;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
   transition: .5s;
 }
 .social-style li a:hover{
@@ -129,6 +131,8 @@ input:-webkit-autofill:focus {
   background: #fff;
   content: "";
   opacity: 0;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
   transition: .5s;
 }
 .mainmenu ul li:after {
@@ -140,6 +144,8 @@ input:-webkit-autofill:focus {
   background: #fff;
   content: "";
   opacity: 0;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
   transition: .5s;
 }
 .mainmenu ul li:hover:after,.mainmenu ul li:hover:before{
@@ -200,6 +206,8 @@ input:-webkit-autofill:focus {
   display: inline-block;
   font-weight: 600;
   margin-right: 20px;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
   transition: .5s;
 }
 .btn-work .fa-briefcase,.btn-work .fa-phone {
@@ -283,6 +291,8 @@ input:-webkit-autofill:focus {
   line-height: 40px;
   font-weight: 600;
   font-size: 16px;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
   transition: .5s;
 }
 
@@ -304,6 +314,8 @@ input:-webkit-autofill:focus {
   text-align: center;
   line-height: 40px;
   border-radius: 5px;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
   transition: .5s;
 }
 .social ul li i.fab {
@@ -339,7 +351,8 @@ input:-webkit-autofill:focus {
   background: #fcfcfc;
   position: relative;
   margin-bottom: 20px;
-  box-shadow: 7inset 1px 4px 9px -6px rgba(0,0,0,.5);
+  -webkit-box-shadow: 7inset 1px 4px 9px -6px rgba(0,0,0,.5);
+          box-shadow: 7inset 1px 4px 9px -6px rgba(0,0,0,.5);
   -moz-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,.5);
   border-radius: 5px;
 }
@@ -350,7 +363,8 @@ input:-webkit-autofill:focus {
   height: 100%;
   background: #333;
   z-index: 1;
-  box-shadow: 2px 0 2px #555;
+  -webkit-box-shadow: 2px 0 2px #555;
+          box-shadow: 2px 0 2px #555;
   border-radius: 5px;
 }
 
@@ -381,7 +395,8 @@ input:-webkit-autofill:focus {
   line-height: 35px;
   background: #000;
   padding: 0px 20px;
-  box-shadow: 2px 0 2px #555;
+  -webkit-box-shadow: 2px 0 2px #555;
+          box-shadow: 2px 0 2px #555;
   border-radius: 5px;
 }
 .barfiller .tip:after {
@@ -460,6 +475,8 @@ input:-webkit-autofill:focus {
   cursor: pointer;
   color: #333;
   text-transform: uppercase;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
   transition: .5s;
   padding:5px 10px;
 }
@@ -499,6 +516,8 @@ input:-webkit-autofill:focus {
   position: relative;
   z-index: 1;
   display: table;
+  -webkit-transition: .7s;
+  -o-transition: .7s;
   transition: .7s;
   overflow: hidden;
 }
@@ -507,6 +526,8 @@ input:-webkit-autofill:focus {
   vertical-align: middle;
   text-align: center;
   padding: 20px;
+  -webkit-transition: .4s;
+  -o-transition: .4s;
   transition: .4s;
   position: relative;
   z-index: 1;
@@ -537,14 +558,20 @@ input:-webkit-autofill:focus {
   content: "";
   background: #3F9B6D;
   z-index: -1;
+  -webkit-transition: .4s;
+  -o-transition: .4s;
   transition: .4s;
-  transform: scale(.8);
+  -webkit-transform: scale(.8);
+      -ms-transform: scale(.8);
+          transform: scale(.8);
   opacity: 0;
 }
 .single-item:hover .project-hover{opacity: 1}
 
 .single-item:hover .project-hover:before{
-    transform: scale(1);
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
     opacity: .8;
 }
 
@@ -560,13 +587,16 @@ input:-webkit-autofill:focus {
   text-align: center;
   border-radius: 50%;
   display: block;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
   transition: .5s;
   margin: 0 auto;
 }
 .single-service-item:hover .service-icon .fas {
   background: #3F9B6D;
   color: #fff;
-  box-shadow: 0 0 0 10px rgba(0, 175, 0, .3);
+  -webkit-box-shadow: 0 0 0 10px rgba(0, 175, 0, .3);
+          box-shadow: 0 0 0 10px rgba(0, 175, 0, .3);
 }
 
 .single-service-item:hover{
@@ -580,6 +610,8 @@ input:-webkit-autofill:focus {
   min-height: 360px;
   margin-bottom: 30px;
   border-color: #e6e6e6;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
   transition: .5s;
 }
 .service-text h2 {
@@ -659,6 +691,8 @@ input:-webkit-autofill:focus {
   display: inline-block;
   margin-left: 10px;
   border: 1px solid #3F9B6D;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
   transition: .5s;
   background: #fff;
 }
@@ -732,7 +766,8 @@ input:-webkit-autofill:focus {
   font-size: 400;
 }
 .white-box {
-  box-shadow: 4px 4px 10px #0003;
+  -webkit-box-shadow: 4px 4px 10px #0003;
+          box-shadow: 4px 4px 10px #0003;
   padding: 50px;
   background: #fff;
 }
@@ -742,5 +777,4 @@ input:-webkit-autofill:focus {
   top: 37px;
   z-index: 11;
 }
-
 
