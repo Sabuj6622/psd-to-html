@@ -10,9 +10,8 @@
 /* LG devices:992 */
 @media (min-width: 992px) and (max-width: 1200px) { 
 .slicknav_menu {
-    display: none;
+	display: none;
 }
-
 .mainmenu ul li a {
 	font-size: 15px;
 	padding: 20px 10px;
@@ -31,6 +30,9 @@
 /* Md devices:786  */
 @media (min-width: 768px) and (max-width: 991px) {
 
+.slicknav_menu {
+	display: none;
+}
 .logo a {
 	font-size: 24px;
 }
@@ -41,12 +43,7 @@
 .slide-text {
 	padding-top: 100px;
 }
-.slicknav_nav {
-	position: absolute;
-	right: 0;
-	top: 39px;
-	z-index: 11;
-}
+
 .about-tab {
 	margin-top: 59px;
 }
@@ -170,6 +167,9 @@
 }
 .contact-area {
 	padding: 28px 0px 0px;
+}
+.slider-active {
+	padding-bottom: 46px;
 }
 }
 
