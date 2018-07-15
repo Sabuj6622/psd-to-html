@@ -157,14 +157,16 @@ input:-webkit-autofill:focus {
 .mainmenu {
   text-align: right;
 }
-.logo a {
-  font-size: 40px;
-  color: #fff;
-  padding-top: 17px;
-  display: block;
-  text-transform: uppercase;
-}
 
+.logo {
+  margin-top: -19px;
+  margin-bottom: -15px;
+}
+.logo img {
+  width: 200px;
+  height: 100px;
+  display: block;
+}
 .intro-content-table {
   display: table;
   height: 100%;

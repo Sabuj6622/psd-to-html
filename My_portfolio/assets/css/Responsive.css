@@ -74,6 +74,11 @@
  /*SM small devices:550px */
 
 @media (max-width: 575px) { 
+.logo {
+	margin-top: -22px;
+	float: left;
+	margin-left: -79px;
+}
 .slicknav_nav {
 	text-align: center;
 }
