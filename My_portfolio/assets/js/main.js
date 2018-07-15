@@ -54,7 +54,7 @@ $("#kenburnsy-bg").kenburnsy({
        $('.mainmenu').slicknav({
         label: '',
         duration: 1000,
-        easingOpen: "easeOutBounce"
+        easingOpen: "easeOutBounce",
       });
 
         var bodyHeight = $('body').outerHeight();
