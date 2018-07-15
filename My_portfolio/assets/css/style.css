@@ -317,9 +317,7 @@ input:-webkit-autofill:focus {
 .social ul li a:hover {
   background: #333333;
 }
-.boxed-button-wrap a:hover {
-  background: #333333;
-}
+
 .tab-content p {
   margin-bottom: 30px;
   line-height: 35px;
