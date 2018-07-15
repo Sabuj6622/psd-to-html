@@ -741,7 +741,7 @@ input:-webkit-autofill:focus {
 .slicknav_nav {
   position: absolute;
   right: 0;
-  top: 37px;
+  top: 64px;
   z-index: 11;
 }
 .testimonial-area{
@@ -750,4 +750,7 @@ input:-webkit-autofill:focus {
 }
 .slider-active {
   padding-bottom: 160px;
+}
+.slicknav_btn {
+  margin: 9px 12px 6px;
 }
