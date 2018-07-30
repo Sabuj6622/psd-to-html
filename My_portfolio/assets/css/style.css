@@ -1,3 +1,39 @@
+/*-----------------------------------------------------------------------------------
+
+ Theme Name: Portfolio
+ Theme URI: http://siabuj.com
+ Description: This is the personal portfolio where includes all previous works.
+ Author: RSF
+ Version: 1.0
+
+-----------------------------------------------------------------------------------*/
+
+
+/*==============================================
+
+
+  =========content table=================
+
+   1.Basic css
+   2.About css
+   3.Skill css
+   4.Portfoli css
+   5.Services css
+   6.Testimonial css
+   7.Contact form css
+   
+
+==============================================*/
+
+
+
+/*==============================================
+
+Basic css
+
+==============================================*/
+
+
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
@@ -70,11 +106,7 @@ input:-webkit-autofill:focus {
     padding: 0;
 }
 
-
-
-  
- /*header_area css start*/
- .social-style {
+.social-style {
   position: fixed;
   left: 0;
   top: 34%;
@@ -106,7 +138,6 @@ input:-webkit-autofill:focus {
   background: #CB2028;
 }
 
-/*main menu start here*/
 .mainmenu ul {
   list-style: none;
   margin: 0;
@@ -211,9 +242,6 @@ input:-webkit-autofill:focus {
   background: #fff;
   color: #42BC7F;
 }
- /*header_area css end*/
-
-/*footer-area start here*/
 
 .footer-area {
   position: static;
@@ -234,7 +262,19 @@ input:-webkit-autofill:focus {
   padding-top: 10px;
 }
 
+/*==============================================
 
+Basic css end
+
+==============================================*/
+
+
+
+/*==============================================
+
+About css start
+
+==============================================*/
 
 .about-area {
   padding-top: 100px;
@@ -327,6 +367,20 @@ input:-webkit-autofill:focus {
 .single-profile-box p {
   margin: 0;
 }
+
+/*==============================================
+
+About css end
+
+==============================================*/
+
+
+
+/*==============================================
+
+Skill css start
+
+==============================================*/
 
 /* barfiller css */
 .master-fillbar-area {
@@ -422,8 +476,21 @@ input:-webkit-autofill:focus {
   margin-right: 10px;
   color: #fff;
 }
+/*==============================================
 
-/*portfolio area css*/
+About css end
+
+==============================================*/
+
+
+
+
+/*==============================================
+
+portfolio css start
+
+==============================================*/
+
 .header_area.absolute{background-color: #3F9B6D}
 .portfolio-area{
   background-color: #fff;
@@ -432,14 +499,8 @@ input:-webkit-autofill:focus {
 .single-item-bg-1{background-image:url(../img/portfolio-1.png); }
 .single-item-bg-2{background-image:url(../img/portfolio-2.png); }
 .single-item-bg-3{background-image:url(../img/portfolio-3.png); }
-.single-item-bg-4{background-image:url(../img/portfolio-4.png); }
 .single-item-bg-5{background-image:url(../img/portfolio-5.png); }
-.single-item-bg-6{background-image:url(../img/portfolio-6.png); }
-.single-item-bg-7{background-image:url(../img/portfolio-7.png); }
-.single-item-bg-8{background-image:url(../img/portfolio-8.png); }
-.single-item-bg-9{background-image:url(../img/portfolio-9.png); }
 .single-item-bg-10{background-image:url(../img/portfolio-10.png); }
-.single-item-bg-11{background-image:url(../img/portfolio-11.png); }
 .single-item-bg-12{background-image:url(../img/portfolio-12.png); }
 .single-item-bg-13{background-image:url(../img/portfolio-13.png); }
 .single-item-bg-14{background-image:url(../img/portfolio-14.png); }
@@ -551,7 +612,20 @@ input:-webkit-autofill:focus {
 }
 
 
-/*services area start here*/
+/*==============================================
+
+portfolio css end
+
+==============================================*/
+
+
+
+
+/*==============================================
+
+services css start
+
+==============================================*/
 
 
 .service-icon .fas {
@@ -602,7 +676,21 @@ input:-webkit-autofill:focus {
   padding-top: 100px;
 }
 
-/*testmonial css start here*/
+/*==============================================
+
+services css end
+
+==============================================*/
+
+
+
+
+/*==============================================
+
+testmonial css start
+
+==============================================*/
+
 .single-testimonial-item img{
   max-width: 100px;
 }
@@ -617,11 +705,7 @@ input:-webkit-autofill:focus {
 .active-testimonial-carousel {
   margin-top: 50px;
 }
-/*.testimonial-area {
-  padding-top: 100px;
-  background: #0E0F11;
-  height: 100%;
-}*/
+
 .single-testimonial-item img {
   width: 100px;
   height: 100px;
@@ -674,7 +758,21 @@ input:-webkit-autofill:focus {
   width: 25px;
 }
 
-/*form css start*/
+
+/*==============================================
+
+testmonial css end
+
+==============================================*/
+
+
+
+/*==============================================
+
+contact form css 
+
+==============================================*/
+
 
 .colored-box h4,p {
   color: #000;
@@ -754,3 +852,10 @@ input:-webkit-autofill:focus {
 .slicknav_btn {
   margin: 9px 12px 6px;
 }
+
+
+/*==============================================
+
+contact form css 
+
+==============================================*/
