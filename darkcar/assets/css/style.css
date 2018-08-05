@@ -167,6 +167,9 @@ ul{
 .mainmenu ul li a:first-child {
   padding-left: 0;
 }
+.footer-menu ul li a:hover,.footer-menu ul li a.active,.mainmenu ul li a:hover,.mainmenu ul li a.active{
+  color:#FF9800;
+}
 
 /*==========================================
 End Basics css
@@ -573,9 +576,7 @@ footere  CSS
   color: #fff;
   display: block;
 }
-.footer-menu ul li a:hover,.footer-menu ul li a.active{
-  color:#FF9800;
-}
+
 .footer-logo {
   margin-top: 10px;
 }
