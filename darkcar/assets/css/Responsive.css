@@ -1,0 +1,145 @@
+
+ /* XL devices:1200 */
+@media (min-width: 1200px)and (max-width: 1500px) { 
+
+
+}
+/* LG devices:992 */
+@media (min-width: 992px) and (max-width: 1200px) { 
+
+
+}
+
+/* Md devices:786  */
+@media (min-width: 768px) and (max-width: 991px) {
+.mainmenu ul li a {
+	font-size: 12px;
+}
+.logo{text-align: center}
+.large-car img {
+	width: 100%;
+}
+.about-img img {
+	position: inherit;
+	height: auto;
+	width: 100%;
+}
+.about-wrap {
+	position: inherit;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.about-text {
+	padding-top: 20px;
+	padding-right: 70px;
+	position: inherit;
+	left: 0;
+	height: 252px;
+	text-align: center;
+	padding-left: 76px;
+}
+.about-wrap::before {
+	left: 7px;
+}
+.about-post {
+	margin-bottom: 25px;
+}
+.active-portfolio-carousel {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.footer-menu ul li a {
+	padding: 8px 5px;
+	font-size: 12px;
+}
+.footer-logo {
+	text-align: center;
+}
+}
+
+/*Extra small devices*/
+
+@media (max-width: 767) {
+
+
+}
+
+ /*SM small devices:550px */
+
+@media (max-width: 575px) { 
+
+.logo {
+	text-align: center;
+}
+.mainmenu {
+	text-align: center;
+}
+.mainmenu ul li a {
+	font-size: 8px;
+}
+.about-img img {
+	position: inherit;
+	height: auto;
+	width: 100%;
+}
+.about-wrap::before {
+	position: inherit;
+	opacity: 0;
+	visibility: hidden;
+}
+.about-text h1 {
+	font-size: 22px;
+}
+.slide-text-tablecell h1 {
+	font-size: 14px;
+}
+.about-text {
+	position: inherit;
+	height: auto;
+	padding-top: 0px;
+	padding-right: 95px;
+	left: 0px;
+	text-align: inherit;
+	padding-left: 0px;
+}
+.video-text {
+	padding: 20px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.clrd {
+	padding: 15px 10px;
+	font-size: 16px;
+}
+.box {
+	bottom: 13px;
+}
+.footer-logo {
+	text-align: center;
+}
+
+.footer-menu ul li a {
+	padding: 5px 8px;
+	font-size: 8px;
+}
+.footer-menu{margin-bottom: 20px;text-align: center;}
+.cpy-right {
+  font-size: 12px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

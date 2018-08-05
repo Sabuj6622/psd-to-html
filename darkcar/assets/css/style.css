@@ -1,0 +1,591 @@
+
+/*==============================================================
+Template Name: Race car templte
+Template URI: 
+Description: This is the unique car website design
+Author URI: 
+version: 0.1
+===============================================================*/
+
+
+/* =========================================
+CSS Index
+
+* Base CSS
+* Header CSS
+-Main Menu CSS
+-Social link CSS
+*   -Sticky Header and Menu CSS
+* Home Slider CSS                      
+* Section title CSS
+* Features CSS
+* Service CSS
+* Portfolio CSS
+* Skill CSS
+-Progress Bar CSS
+* Project count CSS
+* Testimonial CSS
+* Call to action CSS
+* Owl-carousel customized CSS
+* Pricing CSS
+* Blog CSS
+* Contact CSS
+* Footer CSS
+* Footer cpyright CSS
+* Preloader CSS
+===========================================*/
+
+
+/*==========================================
+
+start basics CSS
+
+===========================================*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus, button:focus, input:focus, textarea:focus, select {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+   font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width:100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    color: #0a0a0a;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+a{
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s
+}
+
+a:hover {
+    text-decoration: none
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/* Preloader CSS */
+#preloader { 
+    position: fixed; 
+    left: 0; 
+    top: 0; 
+    z-index: 99999999; 
+    width: 100%; 
+    height: 100%; 
+    overflow: visible; 
+    background: #FF9800 url('../img/preloader.gif') no-repeat center center; 
+}
+
+.header-area {
+    margin-top: 60px;
+}
+
+.logo {
+  margin-top: 16px;
+}
+
+.slide-bg-1{background-image: url(../img/car-1.jpg);}
+.slide-bg-2{background-image: url(../img/car-2.jpg);}
+.slide-bg-3{background-image: url(../img/car-3.jpg);}
+.slide-bg-4{background-image: url(../img/car-4.jpg);}
+.slide-bg-5{background-image: url(../img/car-5.jpg);}
+.slide-bg-6{background-image: url(../img/car-6.jpg);}
+.slide-bg-7{background-image: url(../img/car-7.jpg);}
+#section-bg{background-image: url(../img/section-bg.jpg);}
+.portfolio-bg-1{background-image: url(../img/portfolio-1.jpg);}
+.portfolio-bg-2{background-image: url(../img/portfolio-2.jpg);}
+.portfolio-slide-bg-1{background-image: url(../img/portfolio-details-1.jpg);}
+.portfolio-slide-bg-2{background-image: url(../img/portfolio-details-2.jpg);}
+.portfolio-slide-bg-3{background-image: url(../img/portfolio-details-3.jpg);}
+.wrap-bg{background-image: url(../img/portfolio-bg.jpg);}
+
+
+.mainmenu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.mainmenu ul li {
+  display: inline-block;
+}
+.mainmenu ul li a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  padding: 10px 10px;
+  display: block;
+}
+.mainmenu ul li a:first-child {
+  padding-left: 0;
+}
+
+/*==========================================
+End Basics css
+===========================================*/
+
+
+
+
+/*==========================================
+
+slide  CSS
+
+===========================================*/
+
+.slide-item-bg {
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd;
+  height: 400px;
+}
+.slide-text-table {
+  display: table;
+  width: 100%;
+  height: 100%;
+  padding-left: 90px;
+}
+.slide-text-tablecell {
+  display: table-cell;
+  vertical-align: middle;
+  color: #fff;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.slide-text-tablecell h1 {
+  max-width: 500px;
+  font-weight: normal;
+  font-size: 35px;
+}
+
+.slide-active .owl-nav div {
+    display: inline-block;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 50px;
+    bottom: 10%;
+    position: absolute;
+    right: 130px;
+}
+.slide-active .owl-nav .owl-next {
+    right: 65px;
+    left: auto;
+}
+/*==========================================
+
+slide  CSS end
+
+===========================================*/
+
+
+/*==========================================
+
+about css
+===========================================*/
+
+
+.about-area {
+  padding-bottom: 40px;
+}
+.about-img img {
+  position: absolute;
+  left: 15px;
+  top: -90px;
+  z-index: 9;
+  height: 342px;
+}
+.single-slide-item {
+  position: relative;
+}
+
+.about-text {
+  padding-top: 20px;
+  padding-right: 44px;
+  position: absolute;
+  left: -117px;
+  background: #ffffff;
+  height: 252px;
+  text-align: center;
+  padding-left: 76px;
+}
+.about-text h1 {
+  font-size: 25px;
+}
+.about-text p {
+  text-align: justify;
+  line-height: 28px;
+}
+.about-post {
+  position: relative;
+  padding-left: 86px;
+  padding-top: 10px;
+  padding-bottom: 11px;
+  cursor: pointer;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+  background: #fff;
+}
+.about-post::before {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 5px;
+  content: "";
+  background: #FF9800;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: .4s;
+  -o-transition: .4s;
+  transition: .4s;
+}
+.about-post:hover::before{
+  opacity: 1;
+  visibility: visible;
+}
+.about-post:hover{
+  background-color: #ddd;
+}
+.about-wrap {
+  position: relative;
+  background: #fff;
+  width: 379px;
+  padding-left: 16px;
+}
+.about-wrap::before {
+  position: absolute;
+  left: -59px;
+  top: -90px;
+  content: "";
+  border-right: 448px solid transparent;
+  border-bottom: 91px solid #fff;
+  width: 0;
+  height: 0;
+  -webkit-transform: skew(-9deg);
+      -ms-transform: skew(-9deg);
+          transform: skew(-9deg);
+  z-index: 99;
+}
+.about-post img {
+  position: absolute;
+  left: 0;
+  top: 0px;
+}
+.about-post h3 {
+  font-size: 15px;
+  margin: 0;
+}
+/*==========================================
+
+about  CSS end
+
+===========================================*/
+
+
+/*==========================================
+
+video  CSS
+
+===========================================*/
+
+.video-area {
+  background-color: #181414;
+  padding-bottom: 20px;
+}
+.video-text {
+  background: #000;
+  height: 100%;
+  color: #fff;
+  padding: 50px;
+}
+.video-text span {
+  color: #FFB930;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+
+
+.large-car img {
+  width: 350px;
+}
+
+.about-post span {
+  position: absolute;
+  left: 20px;
+  top: 15%;
+  font-size: 30px;
+  font-weight: 600;
+}
+.black {
+  background: #000;
+  color: #fff;
+}
+.about-post.black:hover{
+  background-color: #000;
+}
+
+
+.portfolio-wrap {
+  background-position: center;
+  background-size: 128%;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.portfolio-wrap::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: #000;
+  opacity: .4;
+  z-index: -1;
+}
+.signle-portfolio-content {
+  color: #fff;
+  padding-left: 91px;
+}
+.portfolio-wrap >h2 {
+  font-size: 18px;
+  background: #000;
+  color: #fff;
+  padding: 10px;
+}
+.portfolio-text h2 {
+  font-size: 18px;
+}
+.portfolio-text {
+  padding: 0 10px;
+}
+.signle-portfolio-content span {
+  position: absolute;
+  left: 27px;
+  top: 45%;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.single-portfolio {
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd;
+  height: 223px;
+  position: relative;
+  z-index: 1;
+}
+.single-portfolio span {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+}
+.single-portfolio:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  content: "";
+  opacity: .4;
+}
+
+.clrd {
+  color: #FF9800;
+  padding: 33px 10px;
+  display: block;
+  background: #4B4040;
+  font-size: 20px;
+}
+.box {
+  width: 30px;
+  height: 30px;
+  background: #FF9800;
+  position: absolute;
+  right: 36px;
+  bottom: 32px;
+}
+
+
+/*==========================================
+
+video  CSS end
+
+===========================================*/
+
+
+/*==========================================
+
+testimonial  CSS
+
+===========================================*/
+
+.testimonial-info {
+  background: #4A4646;
+  color: #fff;
+  font-size: 12px;
+  padding: 10px;
+  text-align: justify;
+}
+.testimonial-info h3 {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.portfolio-bg {
+  background-position: center;
+  background-size: cover;
+  height: 80px;
+}
+
+.active-portfolio-carousel {
+  border-bottom: 20px solid #4A4646;
+  background: #000;
+
+}
+.single-portfolio-item {
+  padding-bottom: 25px;
+  padding: 10px 5px;
+}
+
+.active-portfolio-carousel .slick-slide.slick-current.slick-active.slick-center {
+  -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+          transform: scale(1.3);
+  -webkit-transition: .4s;
+  -o-transition: .4s;
+  transition: .4s;
+}
+.active-portfolio-carousel .slick-prev, .slick-next {
+  background: #FF9800;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.active-portfolio-carousel .slick-slide.slick-current.slick-active.slick-center {
+    opacity:1;
+    z-index: 9999;
+    position: relative;
+
+}
+.active-portfolio-carousel .slick-slide  {
+    opacity:0.5;
+}
+.active-portfolio-carousel .slick-list.draggable{
+  padding:0px 0px;
+}
+
+/*==========================================
+
+testimonial  CSS end
+
+===========================================*/
+
+
+/*==========================================
+
+footere  CSS 
+
+===========================================*/
+
+.footer-area{
+  background: url(../img/footer-bg.jpg);
+  background-position: center;
+  padding-bottom: 120px;
+  background-size: cover;
+  background-repeat: repeat-x;
+
+}
+.footer-menu {
+  margin-top: 10px;
+  text-align: right;
+}
+.footer-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer-menu ul li {
+  display: inline-block;
+}
+.footer-menu ul li a {
+  padding: 10px 10px;
+  color: #fff;
+  display: block;
+}
+.footer-menu ul li a:hover,.footer-menu ul li a.active{
+  color:#FF9800;
+}
+.footer-logo {
+  margin-top: 10px;
+}
+
+.cpy-right {
+  color: #fff;
+}
+
+/*==========================================
+
+footer  CSS end
+
+===========================================*/
