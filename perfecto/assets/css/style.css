@@ -146,7 +146,7 @@ input:-webkit-autofill:focus {
   font-family: poppins SemiBlod;
   text-transform: uppercase;
   display: block;
-  padding-right: 34px;
+  padding-right: 30px;
   margin-top: 6px;
 }
 .search-icon {
