@@ -114,6 +114,9 @@ input:-webkit-autofill:focus {
 .address p, a {
     color: #adadb3;
 }
+.address p a:hover {
+  color: #adadb3;
+}
 .address p i.fas, .address p i.far {
     margin-right: 5px;
 }
@@ -146,7 +149,7 @@ input:-webkit-autofill:focus {
   font-family: poppins SemiBlod;
   text-transform: uppercase;
   display: block;
-  padding-right: 30px;
+  padding-right: 34px;
   margin-top: 6px;
 }
 .search-icon {
@@ -242,6 +245,214 @@ input:-webkit-autofill:focus {
 }/*===================template_area CSS End====================*/
 
 
+/*===================service_area CSS start====================*/
+.service_area {
+    color: #000;
+    background-color: #fafafa;
+    padding: 120px 0px 150px;
+    border-bottom: 1px solid #ededed;
+}
+.signle-service-item {
+    cursor: pointer;
+}
+.signle-service-item i.fas, .signle-service-item i.far {
+  font-size: 35px;
+}
+.signle-service-item h3 {
+    font-size: 16px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #444444;
+}
+.signle-service-item:hover.signle-service-item i.fas,.signle-service-item:hover.signle-service-item i.far{
+    color:#1B9B8F;
+    transition: .3s;
+}
+.service_area p {
+  font-size: 13px;
+  text-align: justify;
+  text-align-last: center;
+  color: #808080;
+  font-family: poppins Regular;
+}
+.service_area.left-content p {
+    text-align-last: justify;
+    margin-bottom: 50px;
+}/*===================Service_area CSS End====================*/
+
+
+
+/*===================portfolio-area CSS start====================*/
+
+.portfolio-area {
+  padding-top: 110px;
+  padding-bottom: 100px;
+}
+.single-portfolio-item {
+    background-size: cover; 
+    background-position-x: right;
+    background-color: #ddd;
+    background-repeat: no-repeat;
+    height: 320px;
+}
+.single-portfolio-item.large{
+    height: 648px;
+}
+.single-portfolio-item {
+    margin-right: 8px;
+    margin-bottom: 8px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+.single-portfolio-item.mr-none {
+    margin-right: 0px;
+}
+.row.project-list .col-lg-4{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.project-hover {
+  position: absolute;
+  left: 50%;
+  top: 44%;
+}
+.project-hover a {
+  color: #fff;
+  font-size: 25px;
+  opacity: 0;
+  transition: .3s;
+}
+.single-portfolio-item:before {
+  position: absolute;
+  background: #20a094;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  content: "";
+  z-index: -1;
+  opacity: 0;
+  transition: .3s;
+  transform: scale(.3);
+}
+.single-portfolio-item:hover.single-portfolio-item:before{
+    opacity: .9;
+    transform: scale(1);
+}
+
+.single-portfolio-item:hover .project-hover a{
+    opacity: 1;
+}
+.portfolio-menu ul li {
+  color: #000;
+  display: inline-block;
+  border: 1px solid #ddd;
+  padding: 8px 15px;
+  font-size: 13px;
+  font-family: poppins;
+  text-transform: capitalize;
+  transition: .3s;
+  cursor: pointer;
+}
+.portfolio-menu {
+    margin-bottom: 35px;
+    margin-top: 50px;
+}
+.portfolio-menu ul li:hover,.portfolio-menu ul li.active {
+  background: #009688;
+  color: #fff;
+}/*===================portfolio-area CSS end====================*/
+
+/*===================accordion_area CSS start====================*/
+.accordion_area {
+  background: #fafafa;
+  color: #000;
+  padding-top: 100px;
+  padding-bottom: 160px;
+}
+
+.accordion_area h2 {
+  font-size: 22px;
+  font-family: poppins;
+  margin-bottom: 70px;
+}
+.accordion-content .panel-heading {
+  border: 1px solid #e5e5e5;
+}
+.accordion-content {
+  border: 1px solid #e5e5e5;
+  background: #fff;
+}
+.accordion-content .panel-title {
+  font-size: 18px;
+  color: #07877B;
+  position: relative;
+}
+.accordion-content .panel-title a {
+  color: #07877B;
+  display: block;
+  padding: 16px 90px;
+}
+.accordion-content .panel-body {
+  position: relative;
+  padding-left: 130px;
+  font-size: 15px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  color: #666;
+}
+.accordion-content .panel-body .tab-img {
+  position: absolute;
+  left: 7%;
+  bottom: 17%;
+}
+.accordion-content .panel a i.fas {
+  position: absolute;
+  left: 0px;
+  top: -1px;
+  background: #ddd;
+  padding: 10px 18px;
+  font-size: 22px;
+  color: #969595;
+  display: none;
+}
+
+.accordion-content .panel a[aria-expanded="false"] i.fas.fa-plus {
+  display: block;
+}
+.accordion-content .panel a[aria-expanded="true"] i.fas.fa-minus {
+  display: block;
+}/*===================accordion_area CSS end====================*/
+
+/*===================Tab_area CSS start====================*/
+
+.single-bar-wrap {
+  padding-left: 40px;
+  position: relative;
+  padding-bottom: 14px;
+}
+.single-bar-wrap i.fas {
+  position: absolute;
+  left: 0;
+}
+.single-bar-wrap .progress {
+  position: relative;
+  margin-bottom: 25px;
+  background: #fff;
+}
+.percentage {
+  position: absolute;
+  right: 27px;
+  top: 36%;
+}
+.single-bar-wrap h6 {
+  font-size: 14px;
+  font-family: poppins;
+  margin-bottom: 20px;
+}/*===================Tab_area CSS end====================*/
+
 /*===================crafting_area CSS start====================*/
 .crafting_area {
     padding-top: 130px;
@@ -260,7 +471,7 @@ input:-webkit-autofill:focus {
 .crft_content p {
   font-size: 13px;
   line-height: 1.8;
-  color: #D4D4D4;
+  color: #808080;
 }
 .readmore {
   border: 1px solid #D4D4D4;
@@ -292,40 +503,7 @@ input:-webkit-autofill:focus {
   width: 41%;
 }/*===================crafting_area CSS End====================*/
 
-/*===================service_area CSS start====================*/
-.service_area {
-    color: #000;
-    background-color: #fafafa;
-    padding: 120px 0px 150px;
-    border-bottom: 1px solid #ededed;
-}
-.signle-service-item {
-    cursor: pointer;
-}
-.signle-service-item i.fas {
-    font-size: 35px;
-}
-.signle-service-item h3 {
-    font-size: 16px;
-    margin-top: 50px;
-    margin-bottom: 30px;
-    color: #444444;
-}
-.signle-service-item:hover.signle-service-item i.fas{
-    color:#1B9B8F;
-    transition: .3s;
-}
-.service_area p {
-    font-size: 13px;
-    text-align: justify;
-    text-align-last: center;
-    color: #4444;
-    font-family: poppins Regular;
-}
-.service_area.left-content p {
-    text-align-last: justify;
-    margin-bottom: 50px;
-}/*===================Service_area CSS End====================*/
+
 
 
 /*===================callaction_area CSS start====================*/
@@ -497,10 +675,12 @@ input:-webkit-autofill:focus {
     margin-top: 30px;
     display: inline-block;
 }
-.price-content h6 {
-    font-size: 10px;
-    padding-top: 11px;
-    color: #3A3A3A;
+.service_area p {
+  font-size: 13px;
+  text-align: justify;
+  text-align-last: center;
+  color: #808080;
+  font-family: poppins Regular;
 }
 .price-content{
     background:#222020;
@@ -662,6 +842,28 @@ input:-webkit-autofill:focus {
   color: #fff;
 }/*===================Contact_form_area CSS End====================*/
 
+/*===================map_area CSS start====================*/
+#book{
+  display: none;
+}
+
+#clickme i.fas {
+  font-size: 22px;
+  margin-left: 5px;
+  margin-top: -19px;
+}
+#clickme {
+  position: relative;
+  text-align: center;
+}
+.map-area {
+  padding: 70px 0px;
+  font-size: 20px;
+  font-family: poppins;
+  background-image: url(../image/map.jpg);
+  color: #fff;
+  cursor: pointer;
+}/*===================Map_area CSS start====================*/
 
 
 /*===================footer_area CSS start====================*/
@@ -694,9 +896,12 @@ input:-webkit-autofill:focus {
 }
 .footer_icon li a {
   border: 1px solid #F0F0F0;
-  padding: 11px 13px;
   border-radius: 50%;
   transition: .4s;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
 }
 .footer_icon li a i.fab {
   font-size: 16px;
@@ -719,191 +924,4 @@ input:-webkit-autofill:focus {
 
 
 
-.portfolio-area {
-  padding-top: 110px;
-  padding-bottom: 100px;
-}
-.single-portfolio-item {
-    background-size: cover; 
-    background-position-x: right;
-    background-color: #ddd;
-    background-repeat: no-repeat;
-    height: 320px;
-}
-.single-portfolio-item.large{
-    height: 648px;
-}
-.single-portfolio-item {
-    margin-right: 8px;
-    margin-bottom: 8px;
-    position: relative;
-    z-index: 1;
-    cursor: pointer;
-}
-.single-portfolio-item.mr-none {
-    margin-right: 0px;
-}
-.row.project-list .col-lg-4{
-    padding-right: 0px;
-    padding-left: 0px;
-}
 
-.project-hover {
-  position: absolute;
-  left: 50%;
-  top: 44%;
-}
-.project-hover a {
-  color: #fff;
-  font-size: 25px;
-  opacity: 0;
-  transition: .3s;
-}
-.single-portfolio-item:before {
-  position: absolute;
-  background: #20a094;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  content: "";
-  z-index: -1;
-  opacity: 0;
-  transition: .3s;
-  transform: scale(.3);
-}
-.single-portfolio-item:hover.single-portfolio-item:before{
-    opacity: .9;
-    transform: scale(1);
-}
-
-.single-portfolio-item:hover .project-hover a{
-    opacity: 1;
-}
-.portfolio-menu ul li {
-  color: #000;
-  display: inline-block;
-  border: 1px solid #ddd;
-  padding: 8px 15px;
-  font-size: 13px;
-  font-family: poppins;
-  text-transform: capitalize;
-  transition: .3s;
-  cursor: pointer;
-}
-.portfolio-menu {
-    margin-bottom: 35px;
-    margin-top: 50px;
-}
-.portfolio-menu ul li:hover,.portfolio-menu ul li.active {
-  background: #009688;
-  color: #fff;
-}
-
-.accordion_area {
-  background: #fafafa;
-  color: #000;
-  padding-top: 100px;
-  padding-bottom: 160px;
-}
-
-.accordion_area h2 {
-  font-size: 22px;
-  font-family: poppins;
-  margin-bottom: 70px;
-}
-.accordion-content .panel-heading {
-  border: 1px solid #e5e5e5;
-}
-.accordion-content {
-  border: 1px solid #e5e5e5;
-  background: #fff;
-}
-.accordion-content .panel-title {
-  font-size: 18px;
-  color: #07877B;
-  position: relative;
-}
-.accordion-content .panel-title a {
-  color: #07877B;
-  display: block;
-  padding: 16px 90px;
-}
-.accordion-content .panel-body {
-  position: relative;
-  padding-left: 130px;
-  font-size: 15px;
-  padding-top: 35px;
-  padding-bottom: 35px;
-  color: #666;
-}
-.accordion-content .panel-body .tab-img {
-  position: absolute;
-  left: 7%;
-  bottom: 17%;
-}
-.accordion-content .panel a i.fas {
-  position: absolute;
-  left: 0px;
-  top: -1px;
-  background: #ddd;
-  padding: 10px 18px;
-  font-size: 22px;
-  color: #969595;
-  display: none;
-}
-
-.accordion-content .panel a[aria-expanded="false"] i.fas.fa-plus {
-  display: block;
-}
-.accordion-content .panel a[aria-expanded="true"] i.fas.fa-minus {
-  display: block;
-}
-
-
-
-.single-bar-wrap {
-  padding-left: 40px;
-  position: relative;
-  padding-bottom: 14px;
-}
-.single-bar-wrap i.fas {
-  position: absolute;
-  left: 0;
-}
-.single-bar-wrap .progress {
-  position: relative;
-  margin-bottom: 25px;
-  background: #fff;
-}
-.percentage {
-  position: absolute;
-  right: 27px;
-  top: 36%;
-}
-.single-bar-wrap h6 {
-  font-size: 14px;
-  font-family: poppins;
-  margin-bottom: 20px;
-}
-
-#book{
-  display: none;
-}
-
-#clickme i.fas {
-  font-size: 22px;
-  margin-left: 5px;
-  margin-top: -19px;
-}
-#clickme {
-  position: relative;
-  text-align: center;
-}
-.map-area {
-  padding: 70px 0px;
-  font-size: 20px;
-  font-family: poppins;
-  background-image: url(../image/map.jpg);
-  color: #fff;
-}
