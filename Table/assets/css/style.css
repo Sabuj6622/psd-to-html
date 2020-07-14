@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+html,
+body {
+    height: 100%;
+    font-family: 'Gothic-Light', sans-serif;
+}
+*{
+    outline: none!important
+}
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline-offset: -2px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+    margin: 0 0 15px;
+    color: #000;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #333333;
+}
+a:hover {
+    text-decoration: none
+}
+
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.table_content {
+    background: #5EC1DB;
+    color: #fff;
+}
+tr.dark-blue {
+    background: #34B3D5;
+}
+.table_content {
+    background: #5EC1DB;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+}
+.table_content td {
+    padding-right: 30px;
+    transition: .3s;
+    cursor: pointer;
+    position: relative;
+}
+.textclr{
+    color:red;
+}
+.table_content thead th {
+    font-size: 17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.table_content td:nth-child(1) {
+    padding-left: 20px;
+}
+
+.table-heading {
+    border-bottom: 2px solid #5FB0CC;
+    margin-bottom: 23px;
+    position: relative;
+    font-family: 'Gothic-Light', sans-serif;
+}
+.table-heading h3:after {
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 95px;
+  height: 7px;
+  content: "";
+  background: #FF9800;
+}
+.table_area {
+  padding: 80px;
+}
+.table_content td:hover {
+    color: #DFA827;
+}
+.table_content thead::before {
+    position: absolute;
+    left: 0;
+    top: 72px;
+    width: 100%;
+    height: 5px;
+    background: #fff;
+    content: "";
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+.table_content:hover.table_content thead::before {
+    opacity: 1;
+    visibility: visible;
+}
